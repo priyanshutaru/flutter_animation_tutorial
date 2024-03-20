@@ -1,7 +1,8 @@
-// ignore_for_file: prefer_const_constructors
+// ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:flutter/material.dart';
-import 'package:flutter_animation_tutorial/day_one_tutorial.dart';
+import 'package:flutter_animation_tutorial/example_one.dart';
+import 'package:flutter_animation_tutorial/example_two_circle.dart';
 
 void main() {
   runApp(const MyApp());
@@ -14,13 +15,15 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Flutter Demo',
+      debugShowCheckedModeBanner: false,
+      title: 'Flutter Animation',
       theme: ThemeData(
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
        scaffoldBackgroundColor: Colors.black
       ),
-      home: DayOneTutorial(),
+      // home: DayOneTutorial(),
+      home: CircularTwoColorCircle(),
     );
   }
 }

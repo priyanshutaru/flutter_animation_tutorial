@@ -1,7 +1,14 @@
 // ignore_for_file: prefer_const_constructors, unused_import
 
 import 'package:flutter/material.dart';
+import 'package:flutter_animation_tutorial/example_eight.dart';
+import 'package:flutter_animation_tutorial/example_five.dart';
+import 'package:flutter_animation_tutorial/example_four.dart';
+import 'package:flutter_animation_tutorial/example_nine.dart';
 import 'package:flutter_animation_tutorial/example_one.dart';
+import 'package:flutter_animation_tutorial/example_seven.dart';
+import 'package:flutter_animation_tutorial/example_six.dart';
+import 'package:flutter_animation_tutorial/example_three.dart';
 import 'package:flutter_animation_tutorial/example_two_circle.dart';
 
 void main() {
@@ -23,7 +30,15 @@ class MyApp extends StatelessWidget {
        scaffoldBackgroundColor: Colors.black
       ),
       // home: DayOneTutorial(),
-      home: CircularTwoColorCircle(),
+      // home: CircularTwoColorCircle(),
+      home: ExampleThreeCode(),
+      // home: ExampleCodeFour(),
+      // home: ExampleCodeFive(),
+      // home: ExampleSixCode(),
+      // home: ExampleCodeSeven(),
+      // home: ExampleCodeEight(),
+      // home: ExampleCodeNine(),
+      
     );
   }
 }
